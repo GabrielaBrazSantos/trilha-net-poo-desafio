@@ -17,13 +17,15 @@ smartphones.Add(nokiaG605G);
 smartphones.Add(iphone14pro);
 smartphones.Add(iphone13);
 
-Console.WriteLine("Listando smartphones:");
+Console.WriteLine("Testando smartphones:");
 
 foreach(var celular in smartphones)
 {
-    Console.WriteLine(".....................");    
+    Console.WriteLine("Inicio teste ........");    
     Console.WriteLine($"Smartphone Número {celular.Numero}");    
     celular.Ligar();    
     celular.InstalarAplicativo("Whatsapp");
+    celular.InstalarAplicativo("Telegram");
     celular.ReceberLigacao();
+    Console.WriteLine("Fim teste............"); 
 }
