@@ -18,5 +18,9 @@ Você deve criar as suas classes de acordo com o diagrama abaixo:
 2. A classe **Nokia** e **Iphone** devem ser classes filhas de Smartphone.
 3. O método **InstalarAplicativo** deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
 
-## Solução
+## Solução Proposta
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+## Resolução
+Foi implementado as classes Iphone.cs Nokia.cs Smartphone.cs. 
+Na classe para teste Program.cs foi feito uma **lista da classe Smartphones**, adicionando items usando as classes **Nokia e Iphone**. Depois de criar os objetos e adicionar na lista, foi feito um **looping usando o foreach** para testar os objetos criados, mostrando no **Número do telefone** e utilizando os métodos **Ligar, ReceberLigacao e InstalarAplicativo**.
